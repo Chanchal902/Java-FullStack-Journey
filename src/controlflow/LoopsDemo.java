@@ -1,3 +1,5 @@
+package controlflow;
+
 import java.util.Scanner;
 public class LoopsDemo {
     public static void main(String[] args){
@@ -13,14 +15,12 @@ public class LoopsDemo {
         System.out.println("Enter n:");
         n=sc.nextInt();
         int i;
-        Scanner vc=new Scanner(System.in);
         System.out.println("Enter value of i:");
-        i=vc.nextInt();
+        i=sc.nextInt();
         do{
             System.out.println(i);
             i++;
         }while(i<=n);
         sc.close();
-        vc.close();
     }
 }

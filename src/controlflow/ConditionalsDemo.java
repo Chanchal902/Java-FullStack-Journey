@@ -1,3 +1,5 @@
+package controlflow;
+
 import java.util.Scanner;
 public class ConditionalsDemo {
     public static void main(String[] args){
@@ -33,5 +35,6 @@ public class ConditionalsDemo {
             default:
                 System.out.println("Enjoy your day!");
         }
+        sc.close();
     }
 }
