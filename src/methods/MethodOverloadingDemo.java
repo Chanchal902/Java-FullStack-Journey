@@ -1,6 +1,7 @@
-import java.util.Scanner;
+package methods;
+
 public class MethodOverloadingDemo {
-//     int change(int x, int y){
+    //     int change(int x, int y){
 //        System.out.println("----IN METHOD 1---");
 //        if(x>y) x=99;
 //        return x;
@@ -10,13 +11,15 @@ public class MethodOverloadingDemo {
 //        arr[2]=66;
 //        return arr[2];
 //    }
-    void add(){
+    void add() {
         System.out.println("IN METHOD Add");
     }
-    void add(int x){
-        System.out.println("IN METHOD " +x);
+
+    void add(int x) {
+        System.out.println("IN METHOD " + x);
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
 //        int a;
 //        Scanner sc=new Scanner(System.in);
 //        System.out.println("Enter the first number:");
@@ -24,7 +27,7 @@ public class MethodOverloadingDemo {
 //        int b;
 //        System.out.println("Enter the second number:");
 //        b=sc.nextInt();
-//        MethodOverloadingDemo obj=new MethodOverloadingDemo();
+//        methods.MethodOverloadingDemo obj=new methods.MethodOverloadingDemo();
 //        int c=obj.change(a,b);
 //        System.out.println(a + " " + b);
 //
@@ -36,7 +39,7 @@ public class MethodOverloadingDemo {
 //        obj.change2(arr);
 //        System.out.println("new value of arr[2]="+arr[2]);
 //
-        MethodOverloadingDemo obj=new MethodOverloadingDemo();
+        MethodOverloadingDemo obj = new MethodOverloadingDemo();
         obj.add();
         obj.add(63);
 
