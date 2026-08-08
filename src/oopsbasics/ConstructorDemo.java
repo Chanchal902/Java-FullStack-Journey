@@ -1,3 +1,5 @@
+package oopsbasics;
+
 import java.util.Scanner;
 
 // custom class
@@ -14,7 +16,7 @@ class Student {
         s = name;
         roll_no = roll;
         //m=marks;
-        System.out.println("Name of the Student:" + s);
+        System.out.println("Name of the oopsbasics.Student:" + s);
         System.out.println("Roll number:" + roll_no);
         System.out.println("Marks obtained:" + m);
     }
@@ -34,7 +36,7 @@ public class ConstructorDemo {
         s_marks = sc.nextInt();
 
         Student obj = new Student(); //object instantiation (Default constructor call)
-        Student obj1 = new Student(s_name, s_roll, s_marks);  //object instantiation of "Student" class (parameterized constructor call)
+        Student obj1 = new Student(s_name, s_roll, s_marks);  //object instantiation of "oopsbasics.Student" class (parameterized constructor call)
 
     }
 }
