@@ -1,8 +1,9 @@
 package userinput;
 
 import java.util.Scanner;
+
 public class UserInput {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        int age;
 //        System.out.println("Enter your age:");
 //        Scanner sc=new Scanner(System.in);
@@ -17,9 +18,9 @@ public class UserInput {
 
         char ch;
         System.out.println("Enter a character:");
-        Scanner sc=new Scanner(System.in);
-        ch=sc.next().charAt(0);
-        System.out.println("Your choosen character is " +ch);
+        Scanner sc = new Scanner(System.in);
+        ch = sc.next().charAt(0);
+        System.out.println("Your choosen character is " + ch);
         sc.close();
     }
 }
