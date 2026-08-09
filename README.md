@@ -26,6 +26,7 @@ Welcome to my Java Full-Stack Development repository! This repository tracks my 
 
 ## Repository Structure
 
+```text
 Java-Full-Stack-Journey/
 └── src/
 ├── arrays/
@@ -50,7 +51,7 @@ Java-Full-Stack-Journey/
 │   └── StringMethods.java
 └── userinput/
 └── UserInput.java
-
+```
 ---
 
 ## Long-Term Goals
