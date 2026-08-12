@@ -1,3 +1,5 @@
+package oopsbasics;
+
 interface Vehicle{
     void speed(); //interface can have only abstract methods
     void color();

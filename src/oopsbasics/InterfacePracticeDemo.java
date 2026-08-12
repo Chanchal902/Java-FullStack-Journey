@@ -1,3 +1,5 @@
+package oopsbasics;
+
 interface Paytm{
     void checkBalance(double x);  // abstract method
     void debited(double amount,double a);  //abstract method
