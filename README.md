@@ -28,25 +28,39 @@ Welcome to my Java Full-Stack Development repository! This repository tracks my 
 * **Day 13:** Exception Handling & Custom Exceptions
 * **Day 14:** **Capstone Project:** BankApp CLI Application
 
+### Week 3: Java Collection Framework & Java 8+ Features
+* **Day 15-17:** Java Collection Framework (`ArrayList`, `LinkedList`, `HashSet`, `LinkedHashSet`, `TreeSet`, `HashMap`, `LinkedHashMap`, `TreeMap`)
+* **Day 18-19:** Functional Interfaces & Lambda Expressions
+* **Day 20:** Java 16+ Records (`StudentRecord`) & Stream API Basics (`filter`, `map`, `collect`)
+* **Day 21:** **Mini Project:** DataFilterSystem
+
 ---
 
 ##  Projects
 
-### 🏦 Mini BankApp CLI
+### 🏦 Mini BankApp CLI (Week 2)
 A text-based banking application built in Java to demonstrate core Object-Oriented Programming (OOPs) concepts and Custom Exception Handling.
+* **Key Features:** Account management (Balance check, Deposit, Withdraw) with custom `InsufficientBalanceException`.
+* **Concepts Applied:** Encapsulation, Abstraction, Inheritance, Polymorphism, and Exception Handling.
 
+### 📊 DataFilterSystem (Week 3)
+A data processing system using Java Stream API and Records to filter, transform, and aggregate product data efficiently.
 * **Key Features:**
-    * Account management with options to Check Balance, Deposit, and Withdraw money.
-    * Custom exception (`InsufficientBalanceException`) for safe transactions.
-    * Interactive text-based menu built using `Scanner`, `while` loop, and `switch-case`.
-* **Concepts Applied:** Encapsulation, Abstraction, Inheritance, Polymorphism, and Robust Exception Handling.
+  * Used Java **Record** (`Product`) for concise data modeling.
+  * Category-based data filtering using `.filter()`.
+  * Data transformation and string manipulations using `.map()`.
+  * Clean output collection using `.toList()` and `forEach`.
+* **Concepts Applied:** Java Collections, Record Classes, Functional Interfaces, Lambda Expressions, and Stream API Pipelines.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 Java-Full-Stack-Journey/
+├── .gitignore
+├── MyFirstJavaProject.iml
+├── README.md
 └── src/
     ├── arrays/
     │   ├── Array_2D.java
@@ -54,6 +68,20 @@ Java-Full-Stack-Journey/
     ├── basics/
     │   ├── DataTypesDemo.java
     │   └── VariablesDemo.java
+    ├── collectionsframework/
+    │   ├── ArrayListDemo.java
+    │   ├── DataFilterSystem.java
+    │   ├── FunctionalInterfaceDemo.java
+    │   ├── HashMapDemo.java
+    │   ├── HashSetDemo.java
+    │   ├── LambdaExpressionDemo.java
+    │   ├── LinkedHashMapDemo.java
+    │   ├── LinkedHashSetDemo.java
+    │   ├── LinkedListDemo.java
+    │   ├── StreamDemo.java
+    │   ├── StudentRecord.java
+    │   ├── TreeMapDemo.java
+    │   └── TreeSetDemo.java
     ├── controlflow/
     │   ├── ConditionalsDemo.java
     │   ├── FibonacciForLoop.java
