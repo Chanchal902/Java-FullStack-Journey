@@ -1,2 +1,3 @@
 sql-queries/**/*.sql
 linguist-language=SQL
+linguist-detectable=true
