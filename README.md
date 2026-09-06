@@ -7,6 +7,7 @@ Welcome to my Java Full-Stack Development repository! This repository tracks my 
 ##  Tech Stack & Tools
 * **Language:** Java (JDK 17+)
 * **Database:** PostgreSQL
+* **Build Tool:** Maven (`pom.xml`)
 * **IDE & Tools:** IntelliJ IDEA, pgAdmin / psql
 * **Version Control:** Git & GitHub
 
@@ -44,6 +45,14 @@ Welcome to my Java Full-Stack Development repository! This repository tracks my 
 * **Day 27:** Constraints, Subqueries & Indexing Optimization (`PostgreSQL-CONSTRAINTS.sql`, `PostgreSQL-subqueries.sql`, `PostgreSQL-indexing.sql`)
 * **Day 28:** Advanced SQL Practice & Query Analysis (`PostgreSQL-queries.sql`)
 
+### Week 5: Java Database Connectivity (JDBC)
+* **Day 29:** Maven Project Setup (`pom.xml`) & PostgreSQL JDBC Driver Connection (`JdbcDemo.java`)
+* **Day 30:** Executing SQL Statements & Processing Query Results (`StatementResultSetDemo.java`)
+* **Day 31:** Dynamic & Parameterized Queries using `PreparedStatement` (`PreparedStatementDemo.java`)
+* **Day 32:** Executing Stored Procedures & Functions (`CallableStatementDemo.java`)
+* **Day 33:** Database Transaction Management, Commit & Rollback (`TransactionDemo.java`)
+* **Day 34-35:** Batch Processing for Bulk SQL Operations (`BatchProcessing.java`)
+
 ---
 
 ##  Projects
@@ -70,6 +79,7 @@ A data processing system using Java Stream API and Records to filter, transform,
 Java-Full-Stack-Journey/
 ├── .gitignore
 ├── .gitattributes
+├── pom.xml
 ├── README.md
 ├── sql-queries/
 │   ├── Basic-Queries.sql
@@ -109,6 +119,13 @@ Java-Full-Stack-Journey/
     │   ├── ConditionalsDemo.java
     │   ├── FibonacciForLoop.java
     │   └── LoopsDemo.java
+    ├── jdbc/
+    │   ├── BatchProcessing.java
+    │   ├── CallableStatementDemo.java
+    │   ├── JdbcDemo.java
+    │   ├── PreparedStatementDemo.java
+    │   ├── StatementResultSetDemo.java
+    │   └── TransactionDemo.java
     ├── methods/
     │   ├── CalculatorDemo.java
     │   ├── MethodOverloadingDemo.java
