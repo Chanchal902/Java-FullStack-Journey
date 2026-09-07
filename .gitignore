@@ -1,6 +1,7 @@
 .idea/
 *.iml
 target/
+.smarttomcat/
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
