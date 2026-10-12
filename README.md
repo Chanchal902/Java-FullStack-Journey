@@ -1,84 +1,56 @@
-#  Java Full-Stack Development Repository
+<h1 align="center">Java Full-Stack Journey</h1>
 
-[![Java](https://img.shields.io/badge/Java-17%2B-orange?logo=openjdk)](https://www.oracle.com/java/)
-[![Servlet](https://img.shields.io/badge/Servlets-Jakarta%2FJavaEE-blue)](https://jakarta.ee/)
-[![Database](https://img.shields.io/badge/Database-PostgreSQL%2FSQL-4169E1?logo=postgresql)](https://www.postgresql.org/)
-[![Build](https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven)](https://maven.apache.org/)
+<p align="center">
+My learning repository for Java backend development.<br>
+Code is organised by topic and updated as I learn.
+</p>
 
-Welcome to my **Java Full-Stack Engineering** repository! This repository showcases my technical competency, structured learning progress, hands-on implementation of Core Java, Relational Database optimization (PostgreSQL), JDBC connectivity, and backend Web Application development (Servlets & JSP).
-
-Designed specifically to demonstrate production-ready coding practices, clean design patterns, and solid backend software architecture for **Full-Stack / Backend Engineering** roles.
-
----
-
-## 📌 Technical Summary & Core Skills
-
-* **Core Backend Language:** Java 17+ (OOPs, Exception Handling, Collections, Stream API, Lambda Expressions, Records)
-* **Web & Enterprise Technologies:** Servlets, JSP (JavaServer Pages), Request Dispatching, Session Management, HTML5
-* **Database & Persistence:** PostgreSQL, SQL Optimization (Joins, Indexing, Subqueries, Aggregation), JDBC Driver Integration
-* **Data Management & Transactions:** Parameterized Queries (`PreparedStatement`), JDBC Transactions (Commit/Rollback), Batch Processing, Stored Procedures (`CallableStatement`)
-* **Build & Version Control:** Apache Maven (`pom.xml`), Git, GitHub
+<p align="center">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA">
+</p>
 
 ---
 
-## 🛠️ Practical Projects & Portfolio
+## Topics covered
 
-### 1. 🏦 Mini BankApp CLI Application
-* **Description:** Command-line banking system demonstrating strict Object-Oriented Principles, Encapsulation, and Custom Exception Architecture.
-* **Technical Highlights:**
-  * Implemented secure balance operations (Deposit, Withdraw, Audit) with custom runtime exceptions (`InsufficientBalanceException`).
-  * Enforced encapsulation and abstraction for business logic separation.
-* **Key Skills:** Core Java, OOP Design Patterns, Robust Exception Handling.
+| Topic | What I practiced | Folder |
+|---|---|---|
+| Core Java | basics, control flow, methods, arrays, strings, user input | `basics`, `controlflow`, `methods`, `arrays`, `strings`, `userinput` |
+| OOP | classes, inheritance, abstraction, encapsulation, custom exceptions | `oopsbasics` |
+| Collections and Streams | Collections Framework, records, Stream API | `collectionsframework` |
+| PostgreSQL | DDL, DML, joins, subqueries, aggregates, constraints, indexing | `sql-queries` |
+| JDBC | Statement, PreparedStatement, CallableStatement, transactions, batch processing | `jdbc` |
+| Servlets | handling HTTP requests and responses, session tracking | `servlets` |
 
-### 2. 📊 High-Performance Data Filter System
-* **Description:** In-memory data transformation and processing system utilizing modern Java features for rapid evaluation.
-* **Technical Highlights:**
-  * Utilized **Java 16+ Records** (`Product`) for immutable, concise data modeling.
-  * Leveraged **Java Stream API** for dynamic filtering (`.filter()`), mapping (`.map()`), and aggregate list collection (`.toList()`).
-* **Key Skills:** Java Stream API, Functional Programming, Lambda Expressions, Java Records.
+## Projects
 
----
+### Mini BankApp
+A command-line banking application in Java.
+- Abstract `BankAccount` class with private fields and getters
+- `SavingsAccount` subclass and a custom `InsufficientBalanceException`
+- Menu: check balance, deposit, withdraw, exit, with input validation
 
-## 📂 Project Architecture
+Code: `oopsbasics/ProjectCLI.java`
 
-```text
-Java-FullStack-Journey/
-├── .gitattributes
-├── .gitignore
-├── pom.xml
-├── README.md
-├── sql-queries/
-│   ├── Basic-Queries.sql
-│   ├── DDL-Command.sql
-│   ├── DDL-Command-Demo.sql
-│   ├── DML-Command.sql
-│   ├── PostgreSQL-AggregateFunction.sql
-│   ├── PostgreSQL-CLAUSES.sql
-│   ├── PostgreSQL-CONSTRAINTS.sql
-│   ├── PostgreSQL-indexing.sql
-│   ├── PostgreSQL-JOINS.sql
-│   ├── PostgreSQL-Operator.sql
-│   ├── PostgreSQL-queries.sql
-│   └── PostgreSQL-subqueries.sql
-└── src/
-    └── main/
-        ├── java/
-        │   ├── arrays/
-        │   ├── basics/
-        │   ├── collectionsframework/
-        │   ├── controlflow/
-        │   ├── jdbc/
-        │   ├── methods/
-        │   ├── oopsbasics/
-        │   ├── servlets/
-        │   ├── strings/
-        │   └── userinput/
-        └── webapp/
-            ├── WEB-INF/
-            │   └── web.xml
-            ├── demo.html
-            ├── index.html
-            ├── index.jsp
-            ├── login.html
-            └── result.jsp
-```
+### Data Filter System
+Filters a list of products using a Java record and the Stream API.
+- Filtering by category and price
+- Sorting with `Comparator` and mapping to names with `map`
+
+Code: `collectionsframework/DataFilterSystem.java`
+
+## Repository structure
+- `src/main/java/`: Java code, one package per topic
+- `src/main/webapp/`: web files for Servlet practice
+- `sql-queries/`: PostgreSQL practice queries
+- `pom.xml`: Maven configuration
+
+## Currently learning
+Hibernate (see [Hibernate-practice](https://github.com/Chanchal902/Hibernate-practice)), then JSP and Spring Boot.
+
+## Tech
+Java 16+ (records and `Stream.toList()`), PostgreSQL, JDBC, Servlets, Maven, Git
